@@ -1,0 +1,268 @@
+/* ===========================
+   GENERAL
+=========================== */
+
+body{
+    background:#f5f7fb;
+    font-family:'Poppins',sans-serif;
+}
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar{
+    background:#fff;
+}
+
+.navbar-brand{
+    font-size:24px;
+    font-weight:bold;
+}
+
+.nav-link{
+    color:#555;
+    font-weight:500;
+}
+
+.nav-link.active{
+    color:#2563eb !important;
+}
+
+/* ===========================
+   PAGE TITLE
+=========================== */
+
+.dashboard-icon{
+
+    width:60px;
+    height:60px;
+
+    background:#2563eb;
+
+    color:#fff;
+
+    border-radius:15px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:26px;
+
+}
+
+/* ===========================
+   CARDS
+=========================== */
+
+.card{
+
+    border:none;
+
+    border-radius:18px;
+
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+
+}
+
+.card-body{
+
+    padding:25px;
+
+}
+
+/* ===========================
+   FORM
+=========================== */
+
+.form-label{
+
+    font-weight:600;
+
+}
+
+.form-control{
+
+    border-radius:10px;
+
+    height:48px;
+
+}
+
+.form-select{
+
+    height:48px;
+
+    border-radius:10px;
+
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+.btn{
+
+    border-radius:10px;
+
+    font-weight:600;
+
+}
+
+.btn-primary{
+
+    background:#2563eb;
+
+    border:none;
+
+}
+
+.btn-primary:hover{
+
+    background:#1d4ed8;
+
+}
+
+.btn-success{
+
+    border:none;
+
+}
+
+.btn-outline-secondary{
+
+    width:38px;
+
+    height:38px;
+
+}
+
+.btn-outline-danger{
+
+    width:38px;
+
+    height:38px;
+
+}
+
+/* ===========================
+   BADGES
+=========================== */
+
+.badge{
+
+    padding:8px 12px;
+
+    font-size:14px;
+
+}
+
+/* ===========================
+   TABLE
+=========================== */
+
+.table{
+
+    margin-top:15px;
+
+}
+
+.table th{
+
+    background:#f8f9fa;
+
+    font-weight:bold;
+
+}
+
+.table td{
+
+    vertical-align:middle;
+
+}
+
+/* ===========================
+   NOW SERVING
+=========================== */
+
+.display-3{
+
+    font-weight:bold;
+
+}
+
+.display-1{
+
+    opacity:.35;
+
+}
+
+/* ===========================
+   EMPTY STATE
+=========================== */
+
+.text-center i{
+
+    color:#9ca3af;
+
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+
+    font-size:14px;
+
+    color:#888;
+
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:992px){
+
+    .navbar-nav{
+
+        margin-top:20px;
+
+    }
+
+    .card{
+
+        margin-bottom:20px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .dashboard-icon{
+
+        width:50px;
+        height:50px;
+
+        font-size:22px;
+
+    }
+
+    h2{
+
+        font-size:26px;
+
+    }
+
+    .btn{
+
+        width:100%;
+
+    }
+
+}
