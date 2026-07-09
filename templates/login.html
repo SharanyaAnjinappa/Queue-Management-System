@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <title>Queue Management System</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+</head>
+
+<body>
+
+    <div class="login-container">
+
+
+        <h1>Queue Management System</h1>
+
+        <p>Manager sign in to manage queues</p>
+
+        <form action="/login" method="POST">
+
+            <label>Username</label>
+
+            <input
+                type="text"
+                name="username"
+                placeholder="Enter username"
+                required>
+
+            <label>Password</label>
+
+            <input
+                type="password"
+                name="password"
+                placeholder="Enter password"
+                required>
+
+            {% if error %}
+
+<div class="error-message">
+
+    {{ error }}
+
+</div>
+
+{% endif %}
+
+<button type="submit">
+
+    Sign In
+
+</button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
