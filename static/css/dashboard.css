@@ -1,1 +1,469 @@
+/* ==========================
+        GOOGLE FONT
+========================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* ==========================
+        RESET
+========================== */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+body{
+    background:#f5f7fb;
+}
+/* ==========================
+        NAVBAR
+========================== */
+.navbar{
+    background:white !important;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+    padding:14px 0;
+}
+.navbar-brand{
+    font-size:28px;
+    font-weight:700;
+    color:#2563eb !important;
+}
+.navbar-brand i{
+    margin-right:8px;
+}
+.nav-link{
+    color:#555 !important;
+    font-weight:500;
+    transition:.3s;
+}
+.nav-link:hover{
+    color:#2563eb !important;
+}
+.nav-link.active{
+    color:#2563eb !important;
+}
+/* ==========================
+      DASHBOARD HEADER
+========================== */
+.dashboard-icon{
+    width:65px;
+    height:65px;
+    background:#eaf2ff;
+    border-radius:18px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#2563eb;
+    font-size:28px;
+}
+h2{
+    font-weight:700;
+}
+.text-muted{
+    font-size:15px;
+}
+/* ==========================
+       STAT CARDS
+========================== */
+.stat-card{
+    border:none;
+    border-radius:18px;
+    background:white;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+.stat-card:hover{
+    transform:translateY(-6px);
+}
+.stat-card .card-body{
+    padding:22px;
+}
+.stat-card h6{
+    color:#777;
+    margin-bottom:12px;
+}
+.stat-card h3{
+    font-size:34px;
+    font-weight:700;
+    color:#2563eb;
+}
+/* ==========================
+        CHART CARD
+========================== */
 
+.chart-card{
+
+    border:none;
+
+    border-radius:18px;
+
+    background:white;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+}
+
+.chart-card .card-body{
+
+    padding:22px;
+
+}
+
+.chart-card h5{
+
+    font-weight:600;
+
+}
+
+canvas{
+
+    width:100% !important;
+
+    height:300px !important;
+
+}
+
+/* ==========================
+        BADGES
+========================== */
+
+.badge{
+
+    padding:8px 12px;
+
+    border-radius:20px;
+
+}
+/* ==========================
+      RECENT ACTIVITY
+========================== */
+
+.activity-item{
+
+    padding:15px 0;
+
+    border-bottom:1px solid #ececec;
+
+}
+
+.activity-item:last-child{
+
+    border-bottom:none;
+
+}
+
+.activity-item strong{
+
+    font-size:15px;
+
+    color:#222;
+
+}
+
+.activity-item small{
+
+    color:#777;
+
+}
+
+/* ==========================
+        QUEUE CARD
+========================== */
+
+.queue-card{
+
+    border:none;
+
+    border-radius:18px;
+
+    background:white;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+    overflow:hidden;
+
+}
+
+.queue-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 12px 30px rgba(0,0,0,.12);
+
+}
+
+.queue-card .card-body{
+
+    padding:25px;
+
+}
+
+.queue-card h5{
+
+    font-weight:600;
+
+    color:#222;
+
+}
+
+.queue-card p{
+
+    color:#777;
+
+    margin-bottom:15px;
+
+}
+
+.queue-card hr{
+
+    margin:18px 0;
+
+}
+
+.queue-card h4{
+
+    color:#2563eb;
+
+    font-weight:700;
+
+}
+
+.queue-card small{
+
+    color:#777;
+
+}
+
+/* ==========================
+        BUTTONS
+========================== */
+
+.btn{
+
+    border-radius:10px;
+
+    font-weight:500;
+
+    padding:10px 20px;
+
+}
+
+.btn-primary{
+
+    background:#2563eb;
+
+    border:none;
+
+}
+
+.btn-primary:hover{
+
+    background:#1d4ed8;
+
+}
+
+.btn-outline-primary{
+
+    border:2px solid #2563eb;
+
+    color:#2563eb;
+
+}
+
+.btn-outline-primary:hover{
+
+    background:#2563eb;
+
+    color:white;
+
+}
+
+/* ==========================
+        EMPTY STATE
+========================== */
+
+.empty-state{
+
+    padding:70px 20px;
+
+}
+
+.empty-state i{
+
+    font-size:90px;
+
+    color:#c7c7c7;
+
+}
+
+.empty-state h4{
+
+    margin-top:25px;
+
+    font-weight:600;
+
+}
+
+.empty-state p{
+
+    color:#777;
+
+}
+
+/* ==========================
+        FOOTER
+========================== */
+
+footer{
+
+    color:#777;
+
+    font-size:14px;
+
+}
+
+/* ==========================
+      SCROLLBAR
+========================== */
+
+::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#2563eb;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#f3f3f3;
+
+}
+
+/* ==========================
+      RESPONSIVE
+========================== */
+
+@media(max-width:992px){
+
+    .navbar{
+
+        padding:12px;
+
+    }
+
+    .stat-card{
+
+        margin-bottom:20px;
+
+    }
+
+    .chart-card{
+
+        margin-bottom:20px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    h2{
+
+        font-size:26px;
+
+    }
+
+    .dashboard-icon{
+
+        width:55px;
+
+        height:55px;
+
+        font-size:22px;
+
+    }
+
+    .queue-card{
+
+        margin-bottom:20px;
+
+    }
+
+    canvas{
+
+        height:250px !important;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .navbar-brand{
+
+        font-size:22px;
+
+    }
+
+    .stat-card h3{
+
+        font-size:26px;
+
+    }
+
+    .chart-card .card-body{
+
+        padding:18px;
+
+    }
+
+    .queue-card .card-body{
+
+        padding:18px;
+
+    }
+
+}
+/* ===========================
+   Recent Activity
+=========================== */
+
+.activity-card{
+
+    height:380px;
+
+}
+
+.activity-body{
+
+    height:320px;
+
+    overflow-y:auto;
+
+    overflow-x:hidden;
+
+}
+
+/* Scrollbar */
+
+.activity-body::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+.activity-body::-webkit-scrollbar-thumb{
+
+    background:#cfcfcf;
+
+    border-radius:10px;
+
+}
